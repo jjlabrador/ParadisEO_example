@@ -5,6 +5,7 @@ First example using ParadisEO - A software framework for metaheuristics
 
 
 This package contains the source code for ZDT problems.
+-------------------------------------------------------
 
 # Step 1 - Build process
 ------------------------
@@ -14,9 +15,14 @@ To download ParadisEO or having further information about the installation and c
 
 Create a build directory :
 > mkdir build
+
 Go to the build/ directory and lunch cmake:
-(Unix)       > cmake ..
-(Windows)    > cmake .. -G "MinGW Makefiles"
+
+(Unix)       
+> cmake ..
+
+(Windows)    
+> cmake .. -G "MinGW Makefiles"
 
 # Step 2 - Compilation
 ----------------------
@@ -39,3 +45,6 @@ In the directory "application", there are three ".cpp" which instantiate NSGAII 
 # Documentation
 ---------------
 The API-documentation is available in doc/html/index.html 
+
+For regenerate the API-documentation,:
+> make doc
