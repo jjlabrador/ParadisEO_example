@@ -46,5 +46,5 @@ In the directory "application", there are three ".cpp" which instantiate NSGAII 
 ---------------
 The API-documentation is available in doc/html/index.html 
 
-For regenerate the API-documentation,:
+For regenerate the API-documentation:
 > make doc
