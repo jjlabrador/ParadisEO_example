@@ -1,0 +1,27 @@
+
+######                 General    ######
+# --help=0                                 # -h : Prints this message
+# --stopOnUnknownParam=1                   # Stop if unkown param entered
+# --seed=1238422275                        # -S : Random number seed
+
+######    Evolution Engine        ######
+# --popSize=20                             # -P : Population Size
+
+######    Output                  ######
+--outputFile=NSGAII.out                  # -o : Path of the output file
+
+######    Param                   ######
+# --maxGen=10000                           # -G : Maximum number of generations
+--pCross=1                               # -C : Crossover probability
+--extPMut=1                              # -E : External Mutation probability
+--intPMut=0.083333                       # -I : Internal Mutation probability
+--vecSize=30                             # -V : Genotype Size
+--nbObj=2                                # -N : Number of Objective
+--eval=1                                 # -F : Number of the ZDT evaluation fonction
+--nbEval=500                             # -P : Number of evaluation before Stop
+--time=0                                 # -T : Time(seconds) before Stop
+
+######    Persistence             ######
+# --Load=                                  # -L : A save file to restart from
+# --recomputeFitness=0                     # -r : Recompute the fitness after re-loading the pop.?
+# --status=./build/application/ZDT_NSGAII.status # Status file
